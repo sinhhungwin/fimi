@@ -1,0 +1,26 @@
+name: fimi
+description: A Flutter project for displaying air pollution information.
+
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.1
+  hooks_riverpod: ^1.0.3
+  http: ^0.12.2
+  intl: ^0.16.1
+  share_plus: ^3.0.4
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - weather-icons/
